@@ -1,0 +1,348 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+   
+    justify-content: center;
+   
+}
+.home-page{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(78, 65, 65); */
+    background-image: url(image/bedroom-5664221_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 100;
+    color: rgb(18, 18, 18);
+    position: relative;
+   
+    
+}
+.menu ol{
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    
+}
+.menu ol li{
+
+  font-size: 2.3vh;
+  font-weight: 900;
+  color: white;
+  
+  padding: 1%;
+  border-radius: 5px;
+}
+#logo{
+  font-size: 4vh;
+  font-weight: 900;
+
+}
+
+
+.nevigaton-bar{
+    display: flex;
+   height: 20%;
+    width: 100%;
+    /* background-color: bisque; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 20% 3% 20%;
+}
+#rooms{
+    position: absolute;
+    margin-top: 24% ;
+    margin-left: 25%;
+    font-weight: 900;
+    font-size: 4vh;
+    /* background-color: aqua; */
+}
+#text{
+    position: absolute;
+    margin-top: 32% ;
+    margin-left: 23%;
+    font-weight: 900;
+    font-size: 2vh;
+
+}
+#homes{
+
+    position: absolute;
+    margin-top: 45% ;
+    margin-left: 27%;
+    font-weight: 900;
+    font-size: 2vh;
+}
+#chake-date{
+
+    height: 20% ;
+    width: 56% ;
+    background-color: aquamarine;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 23%;
+    display: flex;
+    flex-direction: row;
+}
+#chake-date div{
+    height:100% ;
+    width: 25%;
+    background-color: rgb(225, 225, 233);
+    border: 1px solid rgb(206, 195, 195);
+    color: black;
+    font-weight: 900;
+    font-size: 2.3vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    line-height: 25px;
+
+
+}
+#chake-date #chake-alva{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height:100% ;
+    width: 25%;
+    background-color: rgb(197, 151, 43);
+    /* font-weight: 900; */
+    font-size: 2.2vh;
+    color: white;
+} 
+
+.man-contaner{
+
+    width: 99.3%;
+    height: 120%;
+    /* background-color: aquamarine; */
+    margin-top: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.man-contaner #rooms-image1{
+    width: 50%;
+    height: 40%;
+    /* background-color: black; */
+    background-image: url(image/bed-1839183_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rooms-text1{
+    width: 45%;
+    height: 40%;
+    color: black;
+    padding-left: 130px;
+    padding-top: 60px;
+     /* background-color: rgb(138, 138, 66); */
+} 
+
+#rooms-text2{
+    /* background-color: violet; */
+    width: 50%;
+    height: 40%;
+    color: black;
+    padding-top: 60px ;
+    padding-left: 130px;
+}
+#rooms-image2{
+    background-color: yellow;
+    width: 50%;
+    height: 40%;
+    background-image: url(image/pexels-heyho-6492400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rooms-image3{
+    background-color: wheat;
+    width: 50%;
+    height: 40%;
+    background-image: url(image/bedroom-416062_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#rooms-text3{
+    /* background-color: white; */
+    width: 50%;
+    height: 40%;
+    color: black;
+    padding-top: 60px ;
+    padding-left: 130px;
+}
+#rooms-text4{
+    /* background-color: rgb(164, 114, 114); */
+    width: 50%;
+    height: 40%;
+    color: black;
+    padding-top: 60px ;
+    padding-left: 130px;
+
+}
+#rooms-image4{
+    background-color: rebeccapurple;
+    width: 50%;
+    height: 40%;
+    background-image: url(image/small-hotel-room-interior-with-double-bed-bathroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.load-more{
+    width: 100%;
+    height: 7%;
+    /* background-color: rgb(171, 136, 91); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.load-more button{
+    padding: 5px;
+    width: 90px ;
+    height: 35px;
+    background-color: rgb(255, 251, 251);
+    border: none;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+}
+.footer{
+ background-color: black;
+ height: 25%;
+ width: 100%;
+
+}
+.footer2{
+    background-color: black;
+    height: 7%;
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+   }
+
+   #luxury{
+    font-weight: 900;
+    font-size: 3vh;
+   }
+   #pragraph{
+    width: 350px;
+    font-size: 1.7vh;
+    height: 50px;
+    padding-top: 5px;
+   }
+   #rate{
+    font-weight: 900;
+    margin-top: -5px;
+   }
+   #doller{
+    color: rgb(97, 97, 7);
+    font-size: 3vh;
+   }
+  #detailss{
+    height: 100px;
+    width: 200px ;
+    margin-top: 4px;
+    /* background-color: violet; */
+  }
+  #tables-from,tr, td{
+
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+  #book-more{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    /* background-color: aqua; */
+  }
+  #book button{
+
+    background-color: rgb(150, 89, 10);
+    color: white;
+    height: 90%;
+    border: none;
+    width: 90px;
+    margin-right: 30px;
+    
+  }
+  #More{
+    
+    border-bottom: 1px solid black;
+    height: 25px;
+  }
+  #More a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  #servic{
+    /* background-color: aqua; */
+    height: 50px;
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #servic ol{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 125px;
+  }
+  #serivce-list{
+
+     /* background-color: aqua; */
+     height: 80%;
+     width: 100%;
+     display: flex;
+     margin-top: -10px;
+     margin-left: 5px;
+     justify-content: center;
+     gap: 38px;
+  }
+
+  #serivce-list ol{
+
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.9vh;
+    opacity: 0.5;
+    padding-left: 32px;
+    
+
+
+  }
+
+  #desgin-by #desgin{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 0.6;
+  }
+
+  #desgin-by{
+    font-size: 1.6vh;
+  }
+  
